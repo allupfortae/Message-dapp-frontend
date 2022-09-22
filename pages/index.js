@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import Head from "next/head";
 import NotConnected from "./components/NotConnected";
 import { useMoralis } from "react-moralis";
 import Connected from "./components/Connected";
