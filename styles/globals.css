@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-h1,
-p {
-  /* color: #2c87ae; */
-  color: #1f208f;
-}
-
 strong {
   color: #34b2ea;
+}
+body {
+  background-color: #1f208f;
 }
