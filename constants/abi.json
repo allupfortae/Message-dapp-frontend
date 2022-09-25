@@ -49,31 +49,6 @@
       "type": "event"
     },
     {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "internalType": "address",
-          "name": "_from",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "internalType": "address",
-          "name": "_to",
-          "type": "address"
-        },
-        {
-          "indexed": false,
-          "internalType": "string",
-          "name": "_messages",
-          "type": "string"
-        }
-      ],
-      "name": "Request",
-      "type": "event"
-    },
-    {
       "stateMutability": "payable",
       "type": "fallback"
     },
@@ -107,6 +82,19 @@
       "name": "deleteAnMessage",
       "outputs": [],
       "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMessage",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -175,24 +163,6 @@
       "name": "sendAnMessage",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "_to",
-          "type": "address"
-        },
-        {
-          "internalType": "string",
-          "name": "_message",
-          "type": "string"
-        }
-      ],
-      "name": "sendFriendRequest",
-      "outputs": [],
-      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
